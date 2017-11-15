@@ -99,6 +99,7 @@ class ReceivablesVC: UIViewController {
         let btnStr: String = (numBtn.titleLabel?.text)!
         if self.currentStr == "" && btnStr == "." {
             self.currentStr = "0"
+            //000
         }
         //当首次输入为0时  后面只能输小数点
         if self.currentStr == "0" && btnStr != "." {
